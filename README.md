@@ -16,14 +16,7 @@ Designed with clean structure, smooth transitions, and premium UI feel — witho
 
 ## 🎥 Project Demo
 
-
-If using MP4 instead:
-
-```
-assets/waterfall_demo.mp4
-```
-
-GitHub will show it as a clickable preview.
+![Demo Preview](./assets/demo.gif)
 
 ---
 
