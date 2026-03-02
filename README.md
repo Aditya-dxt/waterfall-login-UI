@@ -20,7 +20,7 @@ Designed with clean structure, smooth transitions, and premium UI feel — witho
 If using MP4 instead:
 
 ```
-assets/demo.mp4
+assets/waterfall_demo.mp4
 ```
 
 GitHub will show it as a clickable preview.
