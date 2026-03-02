@@ -16,19 +16,6 @@ Designed with clean structure, smooth transitions, and premium UI feel — witho
 
 ## 🎥 Project Demo
 
-> Make sure you place your demo file inside an `assets` folder at root level.
-
-If using GIF (Recommended):
-
-```
-assets/demo.gif
-```
-
-Then it will display automatically below:
-
-![Demo Preview](./assets/demo.gif)
-
----
 
 If using MP4 instead:
 
