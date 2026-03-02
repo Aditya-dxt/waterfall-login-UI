@@ -1,48 +1,71 @@
 # 🌊 Waterfall Login UI
 
-A modern and smooth animated Login / Signup UI built using **React** and **CSS**.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.x-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/CSS3-Animations-purple?style=for-the-badge&logo=css3" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/Aditya-dxt/waterfall-login-UI?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/Aditya-dxt/waterfall-login-UI?style=for-the-badge" />
+</p>
 
-This project focuses on clean UI design, smooth state transitions, and premium user experience — without using any external UI libraries.
+A modern and smooth animated **Login / Signup UI** built using **React** and **CSS**.
+
+Designed with clean structure, smooth transitions, and premium UI feel — without using external UI libraries.
+
+---
+
+## 🎥 Project Demo
+
+![Demo Preview](./assets/demo.gif)
 
 ---
 
 ## ✨ Features
 
-- 🔄 Animated Login / Signup form switch
-- 🌫 Glassmorphism design
-- 🎬 Smooth text transitions
-- 📱 Responsive layout
-- 🧩 Clean component structure
-- ⚡ Lightweight & fast
+- 🔄 Animated Login / Signup transition
+- 🌫 Glassmorphism UI design
+- 🎬 Smooth hero text animation
+- 📱 Fully responsive layout
+- 🧩 Clean component architecture
+- ⚡ Lightweight and optimized
 
 ---
 
 ## 🛠 Tech Stack
 
-- React.js
-- CSS3
-- Flexbox
-- Custom animations (no animation libraries)
+| Technology | Purpose |
+|------------|----------|
+| React.js   | Component structure |
+| CSS3       | Styling & animations |
+| Flexbox    | Layout system |
+| Custom Animations | Smooth UI transitions |
 
 ---
 
 ## 📂 Project Structure
 
 ```
-src/
+waterfall-login-UI/
 │
-├── pages/
-│   ├── Auth.jsx
-│   └── Auth.css
-│
-├── components/
 ├── assets/
-└── App.js
+│   └── demo.gif or demo.mp4
+│
+├── src/
+│   ├── pages/
+│   │   ├── Auth.jsx
+│   │   └── Auth.css
+│   │
+│   ├── components/
+│   ├── assets/
+│   └── App.js
+│
+├── package.json
+└── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
 
@@ -50,7 +73,7 @@ src/
 git clone https://github.com/Aditya-dxt/waterfall-login-UI.git
 ```
 
-### 2️⃣ Navigate to project
+### 2️⃣ Navigate into project
 
 ```bash
 cd waterfall-login-UI
@@ -68,7 +91,7 @@ npm install
 npm start
 ```
 
-The app will run on:
+Application will run on:
 
 ```
 http://localhost:3000
@@ -76,49 +99,40 @@ http://localhost:3000
 
 ---
 
-## 🎯 Purpose of This Project
+## 🎯 Project Objective
 
-This UI was built to demonstrate:
+This project demonstrates:
 
-- Clean frontend architecture
-- Smooth UX transitions
-- Practical animation handling in React
-- Modern authentication UI design principles
-
----
-
-## 📸 Preview
-
-> Add your demo GIF or screenshot here
-
-Example:
-
-```
-![Preview](./preview.gif)
-```
+- Clean authentication UI implementation
+- Controlled React state transitions
+- Modern UI/UX animation principles
+- Structured frontend architecture
 
 ---
 
-## 📌 Future Improvements
+## 🚀 Future Improvements
 
-- Backend authentication integration
-- Form validation enhancements
-- Dark mode toggle
-- API-based login system
+- 🔐 Backend authentication integration
+- ✅ Form validation enhancements
+- 🌙 Dark mode toggle
+- 🌍 API-based authentication system
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests are welcome.  
-If you'd like to improve animations or structure, feel free to fork the repo.
+Contributions are welcome.
+
+If you'd like to improve animations or structure, feel free to fork and submit a pull request.
 
 ---
 
-## 📬 Contact
+## 👨‍💻 Author
+
+**Aditya Dixit**
 
 GitHub: https://github.com/Aditya-dxt
 
 ---
 
-⭐ If you found this useful, consider starring the repository.
+⭐ If you found this project useful, consider giving it a star.
