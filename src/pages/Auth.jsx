@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import "./Auth.css";
-import bgVideo from "../assets/waterfall.mp4";
+import bgVideo from "../assets/waterfall_demo.mp4";
 
 function Auth() {
   const [isLogin, setIsLogin] = useState(true);
