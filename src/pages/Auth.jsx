@@ -33,9 +33,10 @@ const handleSwitch = (toLogin) => {
 };
   return (
     <div className="auth-page">
-      <video autoPlay loop muted className="bg-video">
+      <video autoPlay loop muted playsInline className="bg-video">
         <source src={bgVideo} type="video/mp4" />
       </video>
+      <div className="bg-video-overlay"></div>
 
       <div className="auth-container">
         {/* CARD */}
