@@ -29,12 +29,12 @@
 .auth-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* move towards left */
-  gap: 100px;
+  justify-content: center;
+  gap: 120px;
   height: 100vh;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 0 40px;
 }
 
 /* CARD */
@@ -44,7 +44,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 120px; /* move more down */
+  transition: transform 0.8s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.login-pos {
+  transform: translate(-100px, 80px);
+}
+
+.signup-pos {
+  transform: translate(0px, 0px);
 }
 
 .auth-card {

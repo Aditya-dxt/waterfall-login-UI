@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import "./Auth.css";
-import bgVideo from "../assets/waterfall_bg.mp4";
+import bgVideo from "../assets/waterfall_demo.mp4";
 
 function Auth() {
   const [isLogin, setIsLogin] = useState(true);
@@ -40,7 +40,7 @@ const handleSwitch = (toLogin) => {
 
       <div className="auth-container">
         {/* CARD */}
-        <div className="auth-card-wrapper">
+        <div className={`auth-card-wrapper ${isLogin ? 'login-pos' : 'signup-pos'}`}>
           <div ref={cardRef} className={`auth-card ${isLogin ? "" : "flip"}`}>
             <div className="auth-card-inner">
           {/* LOGIN */}
